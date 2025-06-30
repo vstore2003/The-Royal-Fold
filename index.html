@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Royal Fold - Premium Turban Tying Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f7f0;
+            color: #333;
+            cursor: crosshair;
+            outline: rgb(0, 0, 0) dotted 3px;
+            outline-offset: 1px;
+        }
+        
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b63d1482-97a4-4fea-a49f-b9c3fba8a626.png') no-repeat center center;
+            background-size: cover;
+        }
+        
+        .nav-link:hover {
+            color: #d4af37;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .bg-saffron {
+            background-color: #FF9933;
+        }
+        
+        .text-saffron {
+            color: #FF9933;
+        }
+        
+        .bg-navy {
+            background-color: #000080;
+        }
+        
+        .text-navy {
+            color: #000080;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-navy text-white shadow-lg">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <div class="w-16 h-16 bg-saffron rounded-full flex items-center justify-center">
+                        <i class="fas fa-crown text-2xl text-white"></i>
+                    </div>
+                    <a href="#" class="text-2xl font-bold text-white">The Royal Fold</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="nav-link hover:text-saffron transition duration-300">Services</a>
+                    <a href="#about" class="nav-link hover:text-saffron transition duration-300">About</a>
+                    <a href="#gallery" class="nav-link hover:text-saffron transition duration-300">Gallery</a>
+                    <a href="#contact" class="nav-link hover:text-saffron transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button p-2 focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-20 md:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">The Art of Turban Tying</h1>
+            <p class="text-xl md:text-2xl mb-8">Premium turban tying services in the Greater Toronto Area</p>
+            <a href="#contact" class="bg-saffron hover:bg-yellow-600 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 inline-block">
+                Book Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-navy">Our Services</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden transition duration-500 p-6">
+                    <div class="w-20 h-20 bg-saffron rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tshirt text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">Classic Turban</h3>
+                    <p class="text-gray-600 text-center">Traditional tying techniques perfected for everyday wear with comfort and style.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden transition duration-500 p-6">
+                    <div class="w-20 h-20 bg-saffron rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-star text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">Royal Style</h3>
+                    <p class="text-gray-600 text-center">Elegant and sophisticated styles for weddings, ceremonies and special occasions.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white rounded-lg shadow-md overflow-hidden transition duration-500 p-6">
+                    <div class="w-20 h-20 bg-saffron rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-user-graduate text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-4">Custom Design</h3>
+                    <p class="text-gray-600 text-center">Personalized turban tying to match your unique style and personality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b179a6cd-4ac5-4c9e-b0c8-1109fe6a5a11.png" alt="Master turban tier carefully folding and arranging a traditional Sikh turban with intricate pleats" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6 text-navy">About The Royal Fold</h2>
+                    <p class="text-gray-600 mb-4">Founded by passionate turban experts, The Royal Fold brings the ancient art of turban tying to the modern world with precision and elegance.</p>
+                    <p class="text-gray-600 mb-4">Our team of skilled professionals has mastered various traditional and contemporary styles, ensuring you look your best for any occasion.</p>
+                    <p class="text-gray-600">Serving the Greater Toronto Area with locations in Brampton and Mississauga, we're dedicated to preserving this cultural tradition while adapting to modern fashion trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-navy">Gallery</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Gallery Item 1 -->
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4dc1e76a-a911-46c9-a07c-790a892cbc67.png" alt="Elegant navy blue turban with gold accents, perfectly pleated for a formal occasion" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/83ffce84-3926-4168-b078-43bcf339ae07.png" alt="Traditional saffron-colored turban tied in a classic style with crisp folds" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/320e6e83-d837-4409-b72c-a44b4f159bcc.png" alt="Modern turban style with geometric patterns, showcasing contemporary fashion" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2c58aa39-410c-4cd9-b099-a398fb06aca7.png" alt="Wedding turban adorned with decorative jewels and intricate embroidery details" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                </div>
+                
+                <!-- Gallery Item 5 -->
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6b682aad-f10b-4db6-b501-f71c9b8e5904.png" alt="Young Sikh man smiling proudly with a perfectly tied turban in a graduation ceremony" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="overflow-hidden rounded-lg shadow-md">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/96888bbd-07cc-4474-a81b-2460331c4326.png" alt="Step-by-step turban tying demonstration showing the skilled hands of our experts" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-navy">Contact Us</h2>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-6 text-saffron">Our Contacts</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-navy rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Location</h4>
+                                <p class="text-gray-600">Serving the Greater Toronto Area, Brampton & Mississauga</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-navy rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-phone-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Phone</h4>
+                                <p class="text-gray-600">Iqbal Singh: <a href="tel:+16475184554" class="text-saffron hover:underline">+1 (647) 518-4554</a></p>
+                                <p class="text-gray-600">Gurpal Singh: <a href="tel:+16477211586" class="text-saffron hover:underline">+1 (647) 721-1586</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-navy rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-clock text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Hours</h4>
+                                <p class="text-gray-600">Monday - Friday: 10:00 AM - 7:00 PM</p>
+                                <p class="text-gray-600">Saturday - Sunday: 9:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-6 text-saffron">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-saffron">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-saffron">
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Your Phone" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-saffron">
+                        </div>
+                        <div>
+                            <textarea rows="4" placeholder="Your Message" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-saffron"></textarea>
+                        </div>
+                        <button type="submit" class="bg-saffron hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-saffron rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-crown text-xl"></i>
+                        </div>
+                        <span class="text-xl font-bold">The Royal Fold</span>
+                    </div>
+                    <p class="mt-2 text-gray-300">Premium Turban Tying Services</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-300 hover:text-saffron transition duration-300">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-saffron transition duration-300">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-saffron transition duration-300">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-300">
+                <p>&copy; 2023 The Royal Fold. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
